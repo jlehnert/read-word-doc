@@ -24,6 +24,6 @@ public class MyFormatTransformer implements FormatTransformer {
 			System.out.print("UNDERLINE ");
 		}
 		System.out.print("] ");
-		System.out.println(run.text());
+		System.out.println(run.getText(0));
 	}						
 }
